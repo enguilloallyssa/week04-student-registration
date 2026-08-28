@@ -18,3 +18,5 @@ Route::post('/register', [StudentController::class, 'store'])
 
 Route::get('/students/{student}', [StudentController::class, 'show'])
     ->name('students.show');
+
+    
